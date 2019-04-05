@@ -1,13 +1,12 @@
 package org.cap.model;
 
 public class Calculation {
-	private int[] arr= {2,3,4,5,67,8};
 	
-	public void findSum() {
+	
+	public void findSum(int[] arr) {
 		int sum=0;
-		System.out.println("Arrays changed in this method...");
-		for(int n:arr)
-			sum+=n;
+		for(int i=0;i<arr.length;i++)
+			sum+=arr[i];
 		
 		System.out.println("Summation:" + sum);
 	}
