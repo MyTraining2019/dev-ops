@@ -4,8 +4,8 @@ public class Calculation {
 	
 	public void findSum(int[] arr) {
 		int sum=0;
-		for(int n:arr)
-			sum+=n;
+		for(int i=0;i<arr.length;i++)
+			sum+=arr[i];
 		
 		System.out.println("Summation:" + sum);
 	}
