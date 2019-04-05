@@ -10,4 +10,17 @@ public class Calculation {
 		System.out.println("Summation:" + sum);
 	}
 
+	public void multiply(int[] arr) {
+		int prod=1;
+		for(int n:arr)
+			prod*=n;
+		
+		System.out.println("Mulipication Value:" + prod);
+	}
+
+	
+	
+	
+	
+	
 }
