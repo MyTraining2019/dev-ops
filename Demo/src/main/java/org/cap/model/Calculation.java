@@ -12,6 +12,7 @@ public class Calculation {
 	
 	
 	public void divide(int num1,int num2) {
+		System.out.println("Divide Numbers");
 		System.out.println((float)num1/num2);
 	}
 
